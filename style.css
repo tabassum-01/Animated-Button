@@ -1,0 +1,84 @@
+
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.btn{
+    font-size: 50px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    /* background-color: aquamarine; */
+    background: linear-gradient(to left, blue, red, blue, green, yellow, blue, red);
+    padding: 30px 50px;
+    border-radius: 12px;
+    background-size: 200%;
+    transition: all .4s;
+}
+
+.btn:hover{
+    background-position: right; 
+    transform: rotate(360deg);
+    /* transform: scale(1.1); */
+}
+.taba{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+.btn2{
+    font-size: 50px;
+    text-decoration: none;
+    color: cornflowerblue;
+    background: linear-gradient(to left,red,green,blue,orange,pink);
+    padding: 30px 50px;
+    border-radius: 10px;
+    background-size: 200%;
+    transition: all .4s;
+}
+.btn2:hover{
+    background-position: right;
+    transform: scale(1.1);
+}
+.tt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+.btn3{
+    font-size: 50px;
+    text-decoration: none;
+    color: bisque;
+    background:linear-gradient( to right,red, green,blue,yellow,red,orange,purple);
+    padding: 30px 50px;
+    border-radius: 15px;
+    transition: all .5s;
+}
+.btn3:hover{
+    background-position: left;
+    transform: rotate(360deg);
+}
+.rr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+.btn4{
+    font-size: 50px;
+    text-decoration: none;
+    background:linear-gradient(to left,red,green,orange,pink,blue,yellow,purple,red);
+    padding: 30px 50px;
+    border-radius: 20px;
+    background-size: 200%;
+    transition: all .5s;
+}
+.btn4:hover{
+    background-position: right;
+    transform: rotate(180deg);
+}
